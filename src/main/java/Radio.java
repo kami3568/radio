@@ -1,17 +1,20 @@
 
 public class Radio<certainStation> {
-    private int currentStation;
-    private int currentVolume;
+    public int currentStation;
+    public int currentVolume;
     private int stationAmount;
+
 
 
     public Radio() {
         stationAmount = 10;
 
     }
+
     public Radio(int stationAmount) {
         this.stationAmount = stationAmount;
     }
+
 
     public int getCurrentStation() {
         return currentStation;
@@ -70,7 +73,6 @@ public class Radio<certainStation> {
             currentVolume--;
         }
     }
-
 
 
 }
